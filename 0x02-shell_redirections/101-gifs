@@ -1,0 +1,2 @@
+#!/bin/bash
+find -type f -name "*.git" | rev | cut -d "/" -f1 | cut -d '.' 2- | rev | LC_ALL_C sort -f
